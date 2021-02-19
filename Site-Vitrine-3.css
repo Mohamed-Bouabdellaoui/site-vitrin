@@ -1,0 +1,228 @@
+*
+{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    width:100vw ;height: 100vh;
+    background-image: url(Images/background_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.Container
+{
+    width: 100%;height: 100%;
+    display: grid;
+    grid-template-columns:100%;
+    grid-template-rows: 12.50% 80.27% 7.23%;
+
+}
+.ONE
+{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    justify-items: center;align-items: center;
+}
+.aa
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size:  1.7vw;
+    color: #FFFFFF;
+    margin-top: 4%;
+}
+.bb
+{
+    text-decoration:none;
+}
+.logo
+{
+    grid-column: 1/2;
+}
+.Home
+{
+    grid-column: 3/4;
+}
+.Contact
+{
+    grid-column: 4/5;
+}
+.Galerie
+{
+    grid-column: 5/6;
+}
+
+body .Container .TWO .Des .Greybox .wt span{
+    color: #986565;
+}
+.THREE
+{
+    background-image: url(Images/background_rectangle.png);
+    background-repeat: no-repeat;background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);justify-items: center;
+    grid-template-rows: 1fr;align-items: center;
+}
+.ARR{
+    grid-column: 5/9;
+}
+#ARR{
+    list-style: none;
+    font-family: 'Righteous';
+    font-size: 1.2vw;color: #EF7373;
+}
+.AE{
+    grid-column: 1/4;grid-row: 1/2;
+}    
+#AE{
+    list-style: none;
+    font-family: 'Righteous';
+    font-size: 1.2vw;color: #EF7373;
+}
+.TI
+{
+    grid-column:10/11;
+}
+
+ .aa:hover
+ {
+     text-decoration: underline solid #EF7373;
+ }
+a{
+    text-decoration: none;
+}
+.MW
+{
+    justify-self: center;
+}
+#MW
+{
+    display:grid;
+    width: 50%;border: none;
+    position: relative;
+}
+input
+{
+    border: none;background-color: #ef737300;
+    border-bottom: 2px solid #EF7373;outline: none;
+    text-align: solid rgba(182, 182, 182, 0) 0.5vw;
+    color: #000000;
+}
+form
+{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: normal;
+    position: absolute;top: 25%;left:10%;
+}
+.pink{
+    color:#ffffff;
+}
+#send{
+    border-bottom: none;
+    background-color:rgb(251, 241, 236 ,34%);
+    width:30%;height:100%;font-family:'Righteous';
+    margin-left:auto;margin-top:5%;border-radius:9%;
+    color: #ffffff;
+}
+.Galeria{
+  
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 18%;
+    margin-right: 5%;
+    
+}
+.cont1{
+    display: flex;
+ 
+}
+.cont2{
+    display: flex;
+  
+}
+.dv1{ 
+    background-image: url(Images/1.jpg);
+ background-size: cover;
+ background-position: center;
+ position: relative;
+}
+.dv2{ 
+    background-image: url(Images/WM.jpg);
+ background-size: cover;
+ background-position: center;
+ position: relative;
+}
+.dv3{ 
+    background-image: url(Images/child.jpg);
+ background-size: cover;
+ background-position: center;
+ position: relative;
+}
+.dv4{ 
+    background-image: url(Images/sun.jpg);
+ background-size: cover;
+ background-position: center;
+ position: relative;
+}
+.dv5{ 
+    background-image: url(Images/man.jpg);
+ background-size: cover;
+ background-position: center;
+ position: relative;
+}
+.dv6{ 
+    background-image: url(Images/medical.jpg);
+ background-size: cover;
+ background-position: center;
+ position: relative;
+}
+.dv1 h1{
+   position:absolute;
+   bottom: 0;left:30%;
+   font-family: 'Righteous';font-size:2vw;color: rgb(152, 101, 101, 70%);
+   
+}
+.dv2 h1{
+    position:absolute;
+    bottom: 0;left:30%;
+    font-family: 'Righteous';font-size:2vw;color: rgb(255, 255, 255, 70%);
+  
+ }
+ .dv3 h1{
+    position:absolute;
+    bottom: 0;left:45%;
+    font-family: 'Righteous';font-size:2vw;color: rgb(239, 115, 115,0.8) ;
+}
+.dv4 h1{
+    position:absolute;
+    bottom: 0;left:30%;
+    font-family: 'Righteous';font-size:2vw;color: rgba(255, 255, 255, 0.8);
+}
+.dv5 h1{
+    position:absolute;
+    bottom: 0;left:30%;
+    font-family: 'Righteous';font-size:2vw;color: rgba(255, 255, 255, 0.8);
+}
+.dv6 h1{
+    position:absolute;
+    bottom: 0;left:15%;
+    font-family: 'Righteous';font-size:2vw;color: rgba(255, 255, 255,80%);
+}
+.bx{
+    
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 25%;
+    height:150px;
+
+}
